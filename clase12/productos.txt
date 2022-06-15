@@ -1,0 +1,38 @@
+[
+  {
+    "email": "pdepetrischauvin@gmail.com",
+    "time": "2022-6-15 11:57:55",
+    "text": "Hola",
+    "idMessage": 1
+  },
+  {
+    "email": "annebeatriz.r@gmail.com",
+    "time": "2022-6-15 11:58:15",
+    "text": "que onda piojo",
+    "idMessage": 2
+  },
+  {
+    "email": "pdepetrischauvin@gmail.com",
+    "time": "2022-6-15 11:58:24",
+    "text": "¿Cómo te gustan los chicos?",
+    "idMessage": 3
+  },
+  {
+    "email": "annebeatriz.r@gmail.com",
+    "time": "2022-6-15 11:58:32",
+    "text": "ricos",
+    "idMessage": 4
+  },
+  {
+    "email": "pdepetrischauvin@gmail.com",
+    "time": "2022-6-15 11:58:39",
+    "text": "Mmm, ¿tipo Bay Biscuit?",
+    "idMessage": 5
+  },
+  {
+    "email": "annebeatriz.r@gmail.com",
+    "time": "2022-6-15 11:58:52",
+    "text": "tipo VERDES",
+    "idMessage": 6
+  }
+]
