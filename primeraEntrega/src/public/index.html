@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Ingrese Productos</h2>
+    <form action="/api/productos" method="POST">
+        Nombre: <input type="text" name="name" required>
+        Descripción: <input type="text" name="description" required>
+        Código: <input type="text" name="code" required>
+        Foto: <input type="text" name="photourl" required>
+        Precio: <input type="text" name="price" required>
+        Stock: <input type="text" name="stock" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <h2>Crear carrito</h2>
+    <form action="/api/carrito" method="POST">
+        <button type="submit">Crear</button>
+    </form>
+</body>
+
+</html>
