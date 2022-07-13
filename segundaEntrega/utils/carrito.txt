@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1655932187731,
+    "cartProducts": [
+      {
+        "id": 1,
+        "timestamp": 1655932232107,
+        "name": "Sandía",
+        "description": "FALOPA",
+        "code": "A1",
+        "photourl": "yyy",
+        "price": "700",
+        "stock": "2"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": 1655932191343,
+    "cartProducts": []
+  },
+  {
+    "id": 3,
+    "timestamp": 1655934288493,
+    "cartProducts": []
+  },
+  {
+    "id": 4,
+    "timestamp": 1655934297152,
+    "cartProducts": []
+  },
+  {
+    "id": 5,
+    "timestamp": 1655934825137,
+    "cartProducts": []
+  }
+]
