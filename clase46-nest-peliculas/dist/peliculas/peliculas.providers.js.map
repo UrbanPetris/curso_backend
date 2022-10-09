@@ -1,0 +1,1 @@
+{"version":3,"file":"peliculas.providers.js","sourceRoot":"","sources":["../../src/peliculas/peliculas.providers.ts"],"names":[],"mappings":";;;AACA,+DAA2D;AAE9C,QAAA,kBAAkB,GAAG;IAChC;QACE,OAAO,EAAE,gBAAgB;QACzB,UAAU,EAAE,CAAC,UAAsB,EAAE,EAAE,CACrC,UAAU,CAAC,KAAK,CAAC,UAAU,EAAE,gCAAc,CAAC;QAC9C,MAAM,EAAE,CAAC,qBAAqB,CAAC;KAChC;CACF,CAAC"}
