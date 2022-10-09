@@ -1,0 +1,80 @@
+mutation {
+  addProduct(data: {
+    name: "Ciruela"
+    description: "Nutritiva"
+    code: "C1"
+    photourl: "http://frutosnaturales.com.ar/wp-content/uploads/2020/11/ciruela-negra.jpg"
+    price: 100
+    stock: 23
+  }) {
+    id
+  }
+}
+
+mutation {
+  addProduct(data: {
+    name: "Banana"
+    description: "Amarilla"
+    code: "B1"
+    photourl: "https://jumboargentina.vtexassets.com/arquivos/ids/472807/Banana-Ecuador-Por-Kg-1-10885.jpg"
+    price: 200
+    stock: 10
+  }) {
+    id
+  }
+}
+
+mutation {
+  addProduct(data: {
+    name: "Naranja"
+    description: "Con mucho jugo"
+    code: "N1"
+    photourl: "https://st.depositphotos.com/1000141/1963/i/450/depositphotos_19638723-stock-photo-fresh-orange-fruit-with-leaf.jpg"
+    price: 400
+    stock: 60
+  }) {
+    id
+  }
+}
+
+
+ query {
+   getProducts {id,
+     name, description
+   }
+ }
+
+#Usar alguno de los ids devuelto por getProducts
+
+ query {
+   getProductById (id:"633b055bc591fc661cbfdae1") {
+    id,
+     name, 
+    description, price
+   }
+ }
+
+
+ mutation {
+ updateProductById (id:"633b055bc591fc661cbfdae1", data: {
+    name: "Toronja"
+    description: "Roja"
+}) {id,
+    name,
+    description
+  }
+}
+
+ mutation {
+ deleteProductById (id:"633b055bc591fc661cbfdae1") {id,
+    name,
+    description
+  }
+}
+
+mutation {
+  deleteProducts {
+         name,
+     description
+  }
+}
